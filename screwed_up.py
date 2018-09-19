@@ -25,7 +25,7 @@ def run():
             os.system('streamer -q -c /dev/video0 -f rgb24 -r 3 -t 00:01:00 -o %s &' % VIDEO_OUT)
             # BLOQUEAR O TECLADO E MOUSE
             os.system('xtrlock &')
-            os.system('amixer sset \'Master\' 50%')  # SOM NO MÁXIMO
+            os.system('amixer sset \'Master\' 100%')  # SOM NO MÁXIMO
             # EXIBIR UM VIDEO DA GAROTA DO EXORCISTA "GRITANDO".
             # COM TECLADO BLOQUEADO E VOLUME NO MÁXIMO, ESPERO QUE A PESSOA ENTRE
             # EM DESESPERO
