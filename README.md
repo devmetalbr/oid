@@ -1,5 +1,5 @@
 # oid
 
-*Packages Requirements:
+**Packages Requirements:**
 
 sudo apt-get install streamer xtrlock xdotool -y
